@@ -44,7 +44,7 @@ class TPQueue {
         cur = cur->next;
       }
       new_n->next = cur->next;
-      cur->next = new;
+      cur->next = new_n;
     }
   }
 
